@@ -14,27 +14,28 @@ By doing so, the system will generate top 5 tailored movie recommendations for e
 
 ## Problem Statement
 ![problem_statment](https://github.com/user-attachments/assets/c999d5a6-4bb1-4f40-a26c-070fd37035e8)
+
 With the vast amount of content available on streaming platforms, users often feel overwhelmed by choices, making it difficult to discover movies that align with their preferences. Traditional search methods fall short in addressing this challenge, resulting in a less satisfying user experience and decreased engagement.
 
 MovieLens has tasked our team of data scientists with optimizing their recommendation system through data-driven approaches. By analyzing user behaviors and preferences, we aim to enhance the system's ability to deliver personalized movie recommendations.
 
 ## objectives
-![objective image](https://github.com/user-attachments/assets/1e09790b-bdf0-434b-bdd8-e34c29a41903)
+
 ### Main Objective
 
 Building a model that provides top 5 movie recommendations to a user, based on their ratings of other movies.
 
 ### Specific Objectives
 
-1. Implement Content-Based Filtering for Existing Users
+- Implement Content-Based Filtering for Existing Users
 
-2.  Mitigate the Cold Start Problem by:
+-  Mitigate the Cold Start Problem by:
 
-   - Promoting Movie Popularity
-   - Content-Based Filtering
+     - Promoting Movie Popularity
+      - Content-Based Filtering
 
-3.  Evaluate the Recommendation System Performance
-4.  Analyze Movie Rating Frequency
+-  Evaluate the Recommendation System Performance
+-  Analyze Movie Rating Frequency
 
 ## Model Implementation
 - KNNbasic Model.
@@ -48,14 +49,14 @@ The project's success criteria is determined by achieving a Root Mean Squared Er
 
 - There is a noticeable spike around the year 2000, where the number of ratings peaked at over 10,000.This might imply that there was a surge in user activity, perhaps due to the popularity of certain movies or the increased availability of the platform at the time.
 
-- The gragh shows that the genres "Drama" and "Comedy" are the most popular among the movies in the dataset, with significantly higher counts compared to other genres.
+- The genres "Drama" and "Comedy" are the most popular among the movies in the dataset, with significantly higher counts compared to other genres.
 
 - Despite the relatively lower number of Western movies produced, this genre stands out due to its impressive average ratings, surpassing those of other genres. This observation suggests that while Western films may not be as prolific as others, they resonate more strongly with audiences, gaining higher appreciation and positive feedback.
 
 -The analysis indicates that the majority of films were produced in 1994. One might expect this year to reflect the highest ratings. However, the ratings distribution graph reveals that 2000 actually had the highest number of ratings, despite a lower volume of films produced in that year compared to 1994.
 
 ## Conclusions:
-1. Personalized movie recommendations, based on collaborative filtering, leverage this positive rating trend to suggest films that align with users' favorable preferences, enhancing engagement and satisfaction.
+- Personalized movie recommendations, based on collaborative filtering, leverage this positive rating trend to suggest films that align with users' favorable preferences, enhancing engagement and satisfaction.
 
 - The content-based filtering system for existing users can capitalize on popular movies from high-activity periods, like 2000, to recommend similar films based on their attributes, thereby boosting relevance for users familiar with iconic movies from that era.
 
