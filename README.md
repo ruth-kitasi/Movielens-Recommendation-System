@@ -19,7 +19,7 @@ With the vast amount of content available on streaming platforms, users often fe
 
 MovieLens has tasked our team of data scientists with optimizing their recommendation system through data-driven approaches. By analyzing user behaviors and preferences, we aim to enhance the system's ability to deliver personalized movie recommendations.
 
-##Objectives
+## Objectives
 
 - Personalized Recommendations: Collaborative filtering provided tailored suggestions.
 Outcome: Boosted user engagement.
@@ -80,7 +80,7 @@ Rating Frequency:
 Outcome: Positive trends for future recommendations.
 
 
-## Recommenditions
+## Recommendations
 - Recent Movies: Update dataset to include the latest releases for relevance.
 - Filmmaker Info: Add screenwriter and producer data for deeper personalization.
 - Broaden Genres: Expand to niche genres for wider audience appeal.
